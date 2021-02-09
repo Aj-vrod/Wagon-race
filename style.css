@@ -1,0 +1,39 @@
+/* Your board style here */
+.racer-table {
+  width: 100%;
+}
+
+.race-table, td, tr {
+  border: solid 1px rgba(0,0,0,.1);
+  border-collapse: collapse;
+}
+
+.racer-table td {
+  height: 90px;
+  width: 90px;
+}
+
+.racer-table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#player1-race, #player2-race {
+  height: 120px;
+}
+
+#player1-race td.active {
+  background-image: url("images/player_1.png");
+  background-position: center;
+}
+
+#player2-race td.active {
+  background-image: url("images/player_2.png");
+  background-position: center;
+}
+
+.end {
+  background-image: url("images/finish.png");
+  background-position: center;
+  background-size: cover;
+}
